@@ -6,13 +6,13 @@ from rest_framework.authtoken.models import Token
 class BudgetSerializer(serializers.ModelSerializer):
     class Meta:
         model = Budget
-        fields = ['name', 'description', 'balance']
+        fields = ['name', 'description', 'balance', 'data']
 
 
 class InOutSerializer(serializers.ModelSerializer):
     class Meta:
         model = InOut
-        fields = ['budget', 'user', 'category', 'amount']
+        fields = ['budget', 'user', 'category', 'amount', 'data']
 
 
 class UserSerializer(serializers.ModelSerializer):
