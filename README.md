@@ -42,13 +42,16 @@ http://127.0.0.1:8000/api/users , list of all inouts , hidden password to displa
 Only log in users can have access to data in the database
 
 To get token need to use url and use username and password, on local:
+
 http://127.0.0.1:8000/auth/
 
 
 5.Filtering and others
 
 Available end points for filtering on local:
+
 http://127.0.0.1:8000/api/lastinouts/3 , take e.g. 3 last spendings
+
 
 http://127.0.0.1:8000/api/rangeinouts/1618553806/1618563806 ,take all spendings from e.g. last 3 hours 
 
@@ -63,8 +66,11 @@ Each user can create a list of any number of budgets, all budgets are available 
 Below available basic forms to quick check data in database, without any authorization, on local:
 
 http://127.0.0.1:8000/budget_create     - to quick add new budget
+
 http://127.0.0.1:8000/budget_list/      - to list all budgets
+
 http://127.0.0.1:8000/inout_list/       - to list all inouts
+
 http://127.0.0.1:8000/budget_find/      - to find by id specific budget
 
 7.Prepared test for: models, urls, views
