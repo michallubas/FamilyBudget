@@ -19,6 +19,7 @@ Foreign keys/id:
 
 2.Admin and users
 It’s allow for creating several users using admin profile:
+
 http://127.0.0.1:8000/admin/
 Login and password: father
 
@@ -28,6 +29,7 @@ Added also username mother, login and password: mother.
 
 3.Endpoints
 Available end points GET method on local:
+
 http://127.0.0.1:8000/api/budgets/  , list of all budgets  
 http://127.0.0.1:8000/api/inouts/ , list of all inouts   
 http://127.0.0.1:8000/api/users , list of all inouts , hidden password to displaying
