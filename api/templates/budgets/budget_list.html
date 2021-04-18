@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!-- {{ object_list }}-->
+
+<p2 > <strong>List of all budgets: </strong> </p2>
+
+    {% for instance in object_list  %}
+
+<p> {{ instance.name }}   -  {{ instance.description }}, balance =  {{ instance.balance }}</p>
+
+    {% endfor  %}
+
+{% endblock %}

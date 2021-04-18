@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<br>
+<br>
+<h1> Welcome to create site for budget:  </h1>
+<br>
+
+<form action="." method="POST">{% csrf_token %}
+        <input type="text" name="budget" placeholder="Your budget"/>
+
+        <input type="submit" value="Save"/>
+</form>
+
+
+
+{% endblock %}
