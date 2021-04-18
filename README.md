@@ -60,7 +60,8 @@ Each user can create a list of any number of budgets, all budgets are available 
 
 Below available basic forms to quick check data in database, without any authorization, on local:
 
-http://127.0.0.1:8000/budget_create     - to quick add new budget http://127.0.0.1:8000/budget_list/      - to list all budgets
+http://127.0.0.1:8000/budget_create     - to quick add new budget
+http://127.0.0.1:8000/budget_list/      - to list all budgets
 http://127.0.0.1:8000/inout_list/       - to list all inouts
 http://127.0.0.1:8000/budget_find/      - to find by id specific budget
 
