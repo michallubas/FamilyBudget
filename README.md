@@ -5,6 +5,7 @@ Specification
 1.Database
 The application with family budget. Inside application is located data base with two tables:
 - type of budget, table Budget with columns: 
+
 =>id,
 =>name,
 =>description
